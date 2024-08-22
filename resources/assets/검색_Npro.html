@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <aside class="aside">
+            <img src="img/logo.png" alt="">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">
+                        <i class="ico i-home"></i>
+                        <p>홈</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico i-search"></i>
+                        <p>검색</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico i-map"></i>
+                        <p>주거환경</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico i-analyze"></i>
+                        <p>권리분석</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico i-star"></i>
+                        <p>수익분석</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="bottom">
+                <li>
+                    <a href="#">
+                        <i class="ico i-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ico i-logout"></i>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <!-- S : header -->
+            <header class="sub-header">
+                <img src="img/nvest-logo.png" alt="">
+                <p>홍길동 님<span>(71,000P)</span></p>
+            </header>
+            <!-- E : header -->
+
+            <!-- S : main -->
+            <main class="main">
+                <div class="left">
+                    <div class="top">
+                        <div class="search-result">
+                            <h2>서울특별시 마포구 연남동 260-38</h2>
+                            <p>서울특별시 마포구 동교로34실 9</p>
+                        </div>
+                        <button type="button" class="btn btn-search"><i class="ico i-search"></i></button>
+                    </div>
+                    <hr>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <h2>토지정보</h2>
+                                <i class="ico i-arrow-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="box-body">
+                                    <dl>
+                                        <dt>토지면적</dt>
+                                        <dd>76.4 m²</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>용도지역</dt>
+                                        <dd>2종일반</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>용도지구</dt>
+                                        <dd>-</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>지목</dt>
+                                        <dd>대</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>최대건폐율</dt>
+                                        <dd>60%</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>최대용적률</dt>
+                                        <dd>250%</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>토지이용현황</dt>
+                                        <dd>주상기타</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <h2>사업정보</h2>
+                                <i class="ico i-arrow-down"></i>
+                            </button>
+                            <div class="accordion-content b-none p-none">
+                                <div class="tab-container">
+                                    <ul class="tabs m-none">
+                                        <li class="tab active" data-tab="tab-1">PJ 개요</li>
+                                        <li class="tab" data-tab="tab-2">건물 용도</li>
+                                        <li class="tab" data-tab="tab-3">건물 규모</li>
+                                    </ul>
+
+                                    <div class="tab-content active b-none" id="tab-1">
+                                        <div class="dl-group">
+                                            <dl>
+                                                <dt>사업명</dt>
+                                                <dd>산업개발</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>사업기간</dt>
+                                                <dd>36개월</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>사업구분</dt>
+                                                <dd>
+                                                    <div class="check-wrap">
+                                                        <div class="check-group">
+                                                            <input type="checkbox" id="check20">
+                                                            <label for="check20">신축</label>
+                                                        </div>
+                                                        <div class="check-group">
+                                                            <input type="checkbox" id="check21">
+                                                            <label for="check21">리모델링</label>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-md btn-primary">적용</button>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content b-none" id="tab-2">
+                                        <div class="custom-tabs">
+                                            <ul class="tabs m-none">
+                                                <li class="custom-tab active" data-tab="custom-tab-01">PJ 개요</li>
+                                                <li class="custom-tab" data-tab="custom-tab-02">건물 용도</li>
+                                                <li class="custom-tab" data-tab="custom-tab-03">건물 규모</li>
+                                                <li class="custom-tab" data-tab="custom-tab-04">건물 규모</li>
+                                            </ul>
+                                            <div class="custom-tab-content active" id="custom-tab-01">
+                                                <div class="check-wrap">
+                                                    <div class="check-group">
+                                                        <input type="checkbox" id="check30">
+                                                        <label for="check30">단독주택</label>
+                                                    </div>
+                                                    <div class="check-group">
+                                                        <input type="checkbox" id="check31">
+                                                        <label for="check31">공동주택</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="custom-tab-content" id="custom-tab-02">2</div>
+                                            <div class="custom-tab-content" id="custom-tab-03">3</div>
+                                            <div class="custom-tab-content" id="custom-tab-04">4</div>
+                                        </div>
+                                        <div class="btn-group last">
+                                            <button type="button" class="btn btn-md btn-gray">이전</button>
+                                            <button type="button" class="btn btn-md btn-primary">적용</button>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content b-none" id="tab-3">
+                                        <div class="dl-group">
+                                            <dl>
+                                                <dt>사업 면적</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>건물 층 수</dt>
+                                                <dd>지하 3층<br>
+                                                    지상 8층<br>
+                                                    층고 2m</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>건폐율</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>건축면적</dt>
+                                                <dd>60%</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>연면적</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>용적률</dt>
+                                                <dd>250%</dd>
+                                            </dl>
+                                        </div>
+                                        <div class="btn-group last">
+                                            <button type="button" class="btn btn-md btn-gray">이전</button>
+                                            <button type="button" class="btn btn-md btn-primary">적용</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <h2>사업성분석</h2>
+                                <i class="ico i-arrow-down"></i>
+                            </button>
+                            <div class="accordion-content b-none p-none">
+                                <div class="tab-container">
+                                    <ul class="tabs m-none">
+                                        <li class="tab active" data-tab="tab-4">사업 비용</li>
+                                        <li class="tab" data-tab="tab-5">수익성 분석</li>
+                                        <li class="tab" data-tab="tab-6">비용 분석</li>
+                                    </ul>
+
+                                    <div class="tab-content active b-none" id="tab-4">
+                                        <div class="content-box b-none">
+                                            <div class="dl-group">
+                                                <dl class="vertical">
+                                                    <dt>총 사업비용</dt>
+                                                    <dd>2,603,015,890원</dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                        <div class="custom-accordion">
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">매입비용(193,611만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <div class="dl-group">
+                                                        <dl>
+                                                            <dt>토지</dt>
+                                                            <dd>1,843,914,000원</dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>건물</dt>
+                                                            <dd>0원</dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>중개수수료</dt>
+                                                            <dd>92,195,700원</dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>기타</dt>
+                                                            <dd>0원</dd>
+                                                        </dl>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">토목공사비(382만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 2.</p>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">건물공사비(58,933만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">전문서비스이용(0만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">제세공과금(7,376만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">부대비용(0만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">금융비용(0만원)<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+                                            <div class="custom-accordion-item">
+                                                <button class="custom-accordion-header">기타<i
+                                                        class="ico i-arrow-down"></i></button>
+                                                <div class="custom-accordion-content">
+                                                    <p>Content for section 3.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-md btn-primary">적용</button>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content b-none" id="tab-5">
+                                        <div class="custom-tabs">
+                                            <ul class="tabs m-none">
+                                                <li class="custom-tab active" data-tab="custom-tab-05">수익모델</li>
+                                                <li class="custom-tab" data-tab="custom-tab-06">수익률</li>
+                                                <li class="custom-tab" data-tab="custom-tab-07">리포트</li>
+                                            </ul>
+                                            <div class="custom-tab-content active" id="custom-tab-05">
+                                                <div class="dl-group">
+                                                    <dl>
+                                                        <dt>수익 방식</dt>
+                                                        <dd>
+                                                            <div class="check-wrap">
+                                                                <div class="check-group">
+                                                                    <input type="checkbox" id="check50">
+                                                                    <label for="check50">매도</label>
+                                                                </div>
+                                                                <div class="check-group">
+                                                                    <input type="checkbox" id="check51">
+                                                                    <label for="check51">임대+매도</label>
+                                                                </div>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>예상 수입</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>예상 매도액</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>해당 수익률</dt>
+                                                        <dd>
+                                                            <div class="check-wrap vertical">
+                                                                <div class="check-group">
+                                                                    <input type="checkbox" id="check52">
+                                                                    <label for="check52">공시가 반영</label>
+                                                                </div>
+                                                                <div class="check-group">
+                                                                    <input type="checkbox" id="check53">
+                                                                    <label for="check53">실거래가 반영</label>
+                                                                </div>
+                                                                <div class="check-group">
+                                                                    <input type="checkbox" id="check54">
+                                                                    <label for="check54">사용자 입력</label>
+                                                                </div>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>예상 임대수익</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt class="pl-5">임대 기간</dt>
+                                                        <dd>24개월</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt class="pl-5">보증금</dt>
+                                                        <dd>100,000,000원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt class="pl-5">임대료</dt>
+                                                        <dd>100,000,000원</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-md btn-primary">적용</button>
+                                                </div>
+                                            </div>
+                                            <div class="custom-tab-content" id="custom-tab-06">
+                                                <div class="dl-group">
+                                                    <dl>
+                                                        <dt>해당 수익률</dt>
+                                                        <dd>102%</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>총 사업비용</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>예상 수입</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt class="pl-5">해당 수익률</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt class="pl-5">예상 임대수익</dt>
+                                                        <dd>2,863,317,479원</dd>
+                                                    </dl>
+                                                </div>
+
+                                            </div>
+                                            <div class="custom-tab-content" id="custom-tab-07">3</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-content b-none" id="tab-6">
+                                        <div class="dl-group">
+                                            <dl>
+                                                <dt>사업 면적</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>건물 층 수</dt>
+                                                <dd>지하 3층<br>
+                                                    지상 8층<br>
+                                                    층고 2m</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>건폐율</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>건축면적</dt>
+                                                <dd>60%</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>연면적</dt>
+                                                <dd>76.4 m²</dd>
+                                            </dl>
+                                            <dl class="w-50">
+                                                <dt>용적률</dt>
+                                                <dd>250%</dd>
+                                            </dl>
+                                        </div>
+                                        <div class="btn-group last">
+                                            <button type="button" class="btn btn-md btn-gray">이전</button>
+                                            <button type="button" class="btn btn-md btn-primary">적용</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-wrap">
+                    <div class="search-group">
+                        <input type="text" placeholder="새 주소지를 검색하면 Ntown Vest 를 시작합니다">
+                        <button type="button"><i class="ico i-search"></i></button>
+                    </div>
+                </div>
+            </main>
+            <!-- E : main -->
+        </section>
+    </div>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

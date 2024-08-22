@@ -1,0 +1,76 @@
+.ico {
+    background-size: cover !important;
+    display: inline-block;
+}
+
+.i-home {
+    background: url(../img/ico/i-home.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-search {
+    background: url(../img/ico/i-search.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-map {
+    background: url(../img/ico/i-map.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-analyze {
+    background: url(../img/ico/i-analyze.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-star {
+    background: url(../img/ico/i-star.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-chevron-right {
+    background: url(../img/ico/i-chevron-right.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-arrow-repeat {
+    background: url(../img/ico/i-arrow-repeat.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-arrow-down {
+    background: url(../img/ico/i-arrow-down.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-chevron-right-g {
+    background: url(../img/ico/i-chevron-right-g.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-user {
+    background: url(../img/ico/i-user.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-logout {
+    background: url(../img/ico/i-logout.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-x {
+    background: url(../img/ico/i-x.png);
+    height: 24px;
+    width: 24px;
+}
